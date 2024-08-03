@@ -1,7 +1,7 @@
 package main
 
 import (
-	"clitool/cmd"
+	"gencli/cmd"
 )
 
 func main() {

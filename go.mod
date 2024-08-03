@@ -1,4 +1,4 @@
-module clitool
+module gencli
 
 go 1.22.3
 

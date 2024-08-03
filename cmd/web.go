@@ -9,7 +9,7 @@ import (
 
 var webCmd = &cobra.Command{
 	Use:   "web",
-	Short: "This command is use to create vanilla ",
+	Short: "This command is use to create vanilla web struct",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		dirs := []string{"styles", "scripts", "assests"}
 		files := map[string]string{
