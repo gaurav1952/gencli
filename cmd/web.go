@@ -11,7 +11,7 @@ var webCmd = &cobra.Command{
 	Use:   "web",
 	Short: "This command is use to create vanilla ",
 	RunE: func(cmd *cobra.Command, args []string) error {
-		dirs := []string{"style", "scripts", "assests"}
+		dirs := []string{"styles", "scripts", "assests"}
 		files := map[string]string{
 			"index.html":        "index.html",
 			"styles/style.css":  "styles/style.css",
